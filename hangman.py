@@ -6,7 +6,7 @@ chosen_word = random.choice(hangman_words.word_list)
 word_length = len(chosen_word)
 lives = 6
 print(hangman_art.logo)
-print(f"Passt, the solution is {chosen_word}")
+# print(f"Passt, the solution is {chosen_word}")
 display = []
 for _ in chosen_word:
     display.append("_")
